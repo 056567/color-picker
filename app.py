@@ -249,6 +249,14 @@ st.markdown("""
 <div class="hero">
     <div class="hero-title">Color<span>Lens</span></div>
     <div class="hero-sub">Dominant Palette Extractor</div>
+    <div style="
+        margin-top:10px;
+        font-family:'DM Sans', sans-serif;
+        color:#7a7888;
+        font-size:0.9rem;
+    ">
+        By Adella Safitri Akmaliyah · 140810240094
+    </div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -314,4 +322,9 @@ else:
     </div>
     """, unsafe_allow_html=True)
 
-st.markdown('<div class="footer">ColorLens · Built with Streamlit & scikit-learn</div>', unsafe_allow_html=True)
+st.markdown("""
+<div class="footer">
+    ColorLens · Built with Streamlit & scikit-learn<br>
+    Created by Adella Safitri Akmaliyah · 140810240094
+</div>
+""", unsafe_allow_html=True)
