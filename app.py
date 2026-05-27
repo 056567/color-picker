@@ -1,3 +1,5 @@
+#nama = adella safitri
+#NPM = 140810240094
 import streamlit as st
 from PIL import Image
 import numpy as np
